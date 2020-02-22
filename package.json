@@ -1,0 +1,34 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "Pemutar musik javascript ES6",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "normal": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzraKhairanPermana/MyMusic.git"
+  },
+  "author": "Ezra Khairan Permana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EzraKhairanPermana/MyMusic/issues"
+  },
+  "homepage": "https://github.com/EzraKhairanPermana/MyMusic#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.3",
+    "jquery": "^3.4.1",
+    "morgan": "^1.9.1",
+    "serve-index": "^1.9.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
