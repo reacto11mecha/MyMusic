@@ -3,7 +3,7 @@ const middle = require("./backend/middlewares");
 const serveIndex = require("serve-index");
 const express = require("express");
 const port = process.env.PORT || 3000;
-const music_dir = process.env.MUSIC_DIR || "";
+const music_dir = process.env.MUSIC_DIR || "music";
 const app = express();
 
 app.use(middle.httpLogger);
