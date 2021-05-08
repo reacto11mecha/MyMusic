@@ -21,7 +21,7 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
-    "handlebars": "^4.7.3",
+    "handlebars": "^4.7.7",
     "jquery": "^3.4.1",
     "morgan": "^1.9.1",
     "serve-index": "^1.9.1",
